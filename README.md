@@ -56,6 +56,8 @@ teleportPad.Touched:Connect(function(hit)
         end
     end
 end)
+```
+
 
 Customization
 Offset Adjustment
