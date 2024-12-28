@@ -59,23 +59,19 @@ end)
 ```
 
 
-Customization
-Offset Adjustment
+### Customization Offset Adjustment
 
-Modify this line to change how high above the destination players spawn:
+- Modify this line to change how high above the destination players spawn:
 
-humanoidRootPart.CFrame = teleportDestination.CFrame + Vector3.new(0, 3, 0)
+**humanoidRootPart.CFrame = teleportDestination.CFrame + Vector3.new(0, 3, 0)**
 
     Replace 3 with your desired height.
 
-Teleport Pad Appearance
+### Teleport Pad Appearance
 
-You can change the appearance of the TeleportPad (e.g., color, material) to match your game theme.
+- You can change the appearance of the TeleportPad (e.g., color, material) to match your game theme.
 Troubleshooting
 
-    Destination Not Found: Ensure the TeleportDestination part is named correctly and placed in the Workspace.
-    Player Clipping Issues: Adjust the spawn offset (Vector3.new(0, 3, 0)) to prevent players from spawning inside objects.
+    **Destination Not Found**: Ensure the TeleportDestination part is named correctly and placed in the Workspace.
+    **Player Clipping Issues**: Adjust the spawn offset (Vector3.new(0, 3, 0)) to prevent players from spawning inside objects.
 
-Contributing
-
-Feel free to fork this repository, make enhancements, or report any issues. Contributions are always welcome!
